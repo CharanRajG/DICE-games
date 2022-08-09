@@ -1,10 +1,10 @@
 let k1 = Math.floor(Math.random()*6) + 1;
 
-let randomdice1 ="dice" + k1 + ".png";
+let randomdice1 ="/img/dice" + k1 + ".png";
 
 let k2 = Math.floor(Math.random()*6) + 1;
 
-let randomdice2 = "dice" + k2 + ".png";
+let randomdice2 = "/img/dice" + k2 + ".png";
 
 document.querySelectorAll("img")[0].src = randomdice1 ;
 
